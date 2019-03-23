@@ -45,7 +45,7 @@ class ModInputYoScript(Script):
 
                 # the SDK provids the Event class to hold the event you want to write
                 event = Event()
-                # event.stanza is (i think) used for the source field
+                # event.stanza is used for the source field
                 event.stanza = input_name
                 # event.data is _raw
                 event.data = "Current value: {0}".format(value)
